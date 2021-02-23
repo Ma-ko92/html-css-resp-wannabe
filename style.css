@@ -72,11 +72,50 @@ img {
   clear: both;
 }
 
+/* Media queries settings "Bonus" */
+@media screen and (max-width: 768px) {
+  .row {
+    width: 100%;
+  }
+  h1{
+    font-size: 30px;
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  padding: 1%;
+  width:46%;
+}
+  #lezioni .row img {
+    height: 100px;
+  }
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 29%;
+    padding: 1%;
+}
+  .row .left img{
+    height: 100px;
+  }
+  .central img{
+    height: 100px;
+  }
+  .right img{
+    height: 100px;
+  }
+  /* BLOCCO PERCHE */
+    #why .row img {
+    height: 70px;
+  }
+}
+
+
 /* Media queries settings */
 @media screen and (max-width: 420px) {
   .row{
     width: 100%;
-    margin-top: 50px;
   }
  
   h1{
@@ -85,7 +124,6 @@ img {
   /* BLOCCO LEZIONI */
   #lezioni .row img {
     height: 100px;
-    margin-top: 10px;
   }
 
   #lezioni .row>.left,
@@ -108,11 +146,9 @@ img {
   }
   .central img{
     height: 100px;
-    padding-top: 20px;
   }
   .right img{
     height: 100px;
-    padding-top: 20px;
   }
   /* BLOCCO PERCHE */
   #why .row img {
@@ -120,30 +156,3 @@ img {
   }
 }
 
-/* Media queries settings "Bonus" */
-@media screen and (min-width: 768px) {
-  .row {
-    width: 100%;
-    margin-top: 50px;
-  }
-  h1{
-    font-size: 30px;
-  }
-  /* BLOCCO LEZIONI */
-  #lezioni .row img {
-    height: 100px;
-    margin-top: 10px;
-  }
-  /* BLOCCO STEPS */
-  .row .left img{
-    height: 100px;
-  }
-  .central img{
-    height: 100px;
-    padding-top: 20px;
-  }
-  .right img{
-    height: 100px;
-    padding-top: 20px;
-  }
-}
