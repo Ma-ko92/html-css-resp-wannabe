@@ -71,3 +71,25 @@ img {
 .clear {
   clear: both;
 }
+
+/* Media queries settings */
+@media screen and (max-width: 420px) {
+  .row{
+    width: 100%;
+    margin-top: 50px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  #lezioni .row img {
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  float: none;
+  text-align: center;
+  display: inline-block;
+}
+}
