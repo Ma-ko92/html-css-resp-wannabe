@@ -82,6 +82,7 @@ img {
   h1{
     font-size: 30px;
   }
+  /* BLOCCO LEZIONI */
   #lezioni .row img {
     height: 100px;
     margin-top: 10px;
@@ -116,5 +117,33 @@ img {
   /* BLOCCO PERCHE */
   #why .row img {
     height: 70px;
+  }
+}
+
+/* Media queries settings "Bonus" */
+@media screen and (min-width: 768px) {
+  .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row img {
+    height: 100px;
+    margin-top: 10px;
+  }
+  /* BLOCCO STEPS */
+  .row .left img{
+    height: 100px;
+  }
+  .central img{
+    height: 100px;
+    padding-top: 20px;
+  }
+  .right img{
+    height: 100px;
+    padding-top: 20px;
   }
 }
